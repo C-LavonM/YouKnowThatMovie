@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,500&family=Macondo&family=Roboto:wght@500;700;900&family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="style.css">
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
@@ -11,11 +14,14 @@
     <title>You know that one Movie</title>
 </head>
 <body>
+    <div class="header">
+        <p>You Know that One Movie?</p>
+    </div>
     <section class = 'ui-widget'>
         <label for="title">
             Title:
         </label>
-        <input id="title">
+        <input id="title" type="text" placeholder="Search...">
         <ul id="cast"></ul>
     </section>
     <section>
